@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Gradyan tanımı -->
+  <defs>
+    <linearGradient id="morGradyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E1BEE7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7B1FA2;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="kapakGradyan">
+      <stop offset="0%" style="stop-color:#AB47BC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7B1FA2;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Arka plan -->
+  <rect width="512" height="512" fill="url(#morGradyan)"/>
+  
+  <!-- Gölge efekti -->
+  <ellipse cx="256" cy="480" rx="200" ry="20" fill="rgba(0,0,0,0.1)"/>
+  
+  <!-- Arka sayfa (gölge) -->
+  <rect x="100" y="160" width="312" height="280" fill="#D1C4E9" rx="15" opacity="0.6"/>
+  
+  <!-- Ön sayfa (açık) -->
+  <rect x="80" y="140" width="352" height="300" fill="#F8F5FF" rx="15" stroke="#7B1FA2" stroke-width="8"/>
+  
+  <!-- Sayfa çizgileri -->
+  <line x1="120" y1="200" x2="400" y2="200" stroke="#BA68C8" stroke-width="6" stroke-linecap="round"/>
+  <line x1="120" y1="260" x2="400" y2="260" stroke="#BA68C8" stroke-width="6" stroke-linecap="round"/>
+  <line x1="120" y1="320" x2="400" y2="320" stroke="#BA68C8" stroke-width="6" stroke-linecap="round"/>
+  <line x1="120" y1="380" x2="380" y2="380" stroke="#BA68C8" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Kapak (koyu mor) - 3D efekti -->
+  <rect x="60" y="80" width="392" height="90" fill="url(#kapakGradyan)" rx="12" stroke="#4A148C" stroke-width="6"/>
+  
+  <!-- Kapak metnesi / dekorasyonu -->
+  <circle cx="130" cy="125" r="12" fill="#F8D7F5" opacity="0.8"/>
+  <circle cx="170" cy="125" r="12" fill="#F8D7F5" opacity="0.8"/>
+  <circle cx="210" cy="125" r="12" fill="#F8D7F5" opacity="0.8"/>
+  
+  <!-- Açılmış sayfa göstergesi - sol taraf gölge -->
+  <path d="M 70 150 Q 75 220 70 340" stroke="#5E35B1" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Kurdelele/şerit efekti -->
+  <rect x="230" y="70" width="52" height="180" fill="#CE93D8" rx="6" opacity="0.7"/>
+  
+</svg>
